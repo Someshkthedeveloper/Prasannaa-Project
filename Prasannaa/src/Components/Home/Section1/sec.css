@@ -1,0 +1,46 @@
+.sec-cards-Parent{
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sec-card{
+    background-color: whitesmoke;
+    width: 23%;
+    /* padding: .1%; */
+    padding-bottom: 0;
+    height: 49vh;
+    box-shadow: 1px 1px 5px 1px gray;
+    text-align: center;
+    bor
+}
+.sec-img{
+    height: 90%;
+}
+.sec-img img{
+width: 60%;
+height: 85%;
+object-fit: contain;
+transition: all .15s;
+}
+.sec-img img:hover{
+    transform: scale(1.1);
+}
+.sec-title{
+    background-color: white;
+    height:15%;
+    transition: all .20s;
+    font-size: 18px;
+}
+.sec-title:hover{
+    background-color: rgb(99, 99, 249);
+    color: white;
+}
+
+/* Media Query */
+@media all and(max-width:600px){
+    .sec-cards-Parent{
+        width: 45%;
+        background-color: green;
+    }
+}
