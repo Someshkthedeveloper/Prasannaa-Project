@@ -1,18 +1,24 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React from 'react'
+import { pvc } from './Products';
 
-function Prodectlist(props) {
+const Prodectlist = (props) => {
+  
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.img} />
-      <Card.Body>
-        <Card.Title>{props.Title}</Card.Title>
-        <Card.Text>
-          {props.price}
-        </Card.Text>
-      </Card.Body>
-    </Card>
+    <div className="pvccard">
+      <div className="pvc-cards-Parent">
+          <div className="pvc-card" key={props.id}>
+            <div className="pvc-img">
+              <img src={props.img} alt={props.Title} />
+            </div>
+            <div className="pvc_tittle">
+              {props.Title}
+            </div>
+            <div className="pvc-title">price {props.price}</div>
+          </div>
+      </div>
+    </div>
   );
+
 }
 
-export default Prodectlist;
+export default Prodectlist

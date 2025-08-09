@@ -1,12 +1,14 @@
 import React from 'react'
 import Products from '../../Components/Products/Products.jsx'
+import"../../Components/Products/prodect.css"
 const Productspage = () => {
   return (
-<<<<<<< HEAD
+    <div>
+ 
     <div><Products/></div>
-=======
-    <div></div>
->>>>>>> fdc732a6bfac30049f5d90192b6f0cccbc9924e1
+
+    </div>
+
   )
 }
 
