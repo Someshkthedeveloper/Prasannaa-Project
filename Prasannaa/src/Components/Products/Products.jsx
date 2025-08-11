@@ -6,6 +6,7 @@ import { swr } from "./swr";
 import { drainage } from "./underground";
 import { upvc } from "./upvc";
 import { moter } from "./moter";
+import { panal } from "./panal";
 
 const Products = () => {
   return (
@@ -16,6 +17,16 @@ const Products = () => {
         </h2>
       <div  className="map">
         {moter.map((pvc) => (
+          <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price} />
+        ))}
+      </div>
+    </div>
+    <div className="main_box">
+       <h2 className="pvc-h1">
+          <span>CRI SUBMERSIBLE PUMPS & MOTER</span> 
+        </h2>
+      <div  className="map">
+        {panal.map((pvc) => (
           <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price} />
         ))}
       </div>
