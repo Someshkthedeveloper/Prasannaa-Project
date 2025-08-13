@@ -1,24 +1,30 @@
+.sect-1{
+    margin-top: 2%;
+    width: 99vw;
+}
 .sec-cards-Parent{
     width: 99vw;
+    margin-top:2%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .sec-card{
-    background-color: whitesmoke;
+    background-color: white;
     width: 23%;
     /* padding: .1%; */
     padding-bottom: 0;
     height: 49vh;
     box-shadow: 1px 1px 5px 1px gray;
     text-align: center;
-    bor
+    border-radius: 10px;
+    margin-bottom: 5%;
 }
 .sec-img{
     height: 90%;
 }
 .sec-img img{
-width: 60%;
+width: 70%;
 height: 85%;
 object-fit: contain;
 transition: all .15s;
@@ -27,19 +33,20 @@ transition: all .15s;
     transform: scale(1.1);
 }
 .sec-title{
-    background-color: white;
-    height:15%;
+    background-color: whitesmoke;
+    height: 15%;
     transition: all .20s;
     font-size: 18px;
+    border-radius: 0 0 10px 10px;
 }
 .sec-title:hover{
     background-color: rgb(99, 99, 249);
-    color: white;
+    color: whitesmoke;
 }
 
 /* Media Query */
-@media all and(max-width:600px){
-    .sec-cards-Parent{
+@media (max-width:600px){
+    .sec-card{
         width: 45%;
         background-color: green;
     }
