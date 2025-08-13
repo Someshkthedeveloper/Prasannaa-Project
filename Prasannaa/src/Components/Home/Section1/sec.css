@@ -19,6 +19,7 @@
     text-align: center;
     border-radius: 10px;
     margin-bottom: 5%;
+    overflow: hidden;
 }
 .sec-img{
     height: 90%;

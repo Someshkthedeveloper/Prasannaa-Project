@@ -1,0 +1,24 @@
+.sec-2{
+    background: url('./assts/i.jpg');
+    width: 100%;
+    height:400px;
+    /* height: 100%; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.sec-2-div{
+    width: 500px;
+    padding-bottom: 30px;
+    transition: all .9s;
+    text-shadow: 5px 5px 10px whitesmoke;
+;
+}
+.sec-2-div:hover{
+    scale: 1.2;
+}

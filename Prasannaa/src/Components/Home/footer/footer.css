@@ -1,0 +1,18 @@
+.Footer{
+    background-color:#1B3C53;
+    color: white;
+    padding: 100px 0 0 0;
+}
+.Footer h1{
+    font-size: 16px;
+}
+.footer-sec-1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.footer-sec-2{
+    padding: 100px 0 0 0;
+    text-align: center;
+    align-content: center;
+}
