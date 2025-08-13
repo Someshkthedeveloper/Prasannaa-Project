@@ -157,11 +157,7 @@ export const pvc=[
         Title:'singleyytee pvc',
         price:100
      },
-     {
-        img:solventpvc,
-        Title:'solvent pvc',
-        price:100
-     },
+   
      {
         img:tanknipplepvc,
         Title:'tanknipple pvc',
@@ -196,6 +192,11 @@ export const pvc=[
      {
         img:threadewpvc,
         Title:'threadew pvc',
+        price:100
+     },
+       {
+        img:solventpvc,
+        Title:'solvent pvc',
         price:100
      },
     
