@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Nav.css';
+import Logo from './Logo.png'
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar__logo">MyLogo</div>
+      <div className="navbar__logo" style={{display:"flex",alignItems:"center"}}><img src={Logo} alt="" /></div>
 
       <ul className={`navbar__links ${isMobileMenuOpen ? 'active' : ''}`}>
         <li onClick={()=>Nav('/')}>Home</li>
