@@ -3,6 +3,10 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='Footer'>
+      <div className="Brand">
+        <h1>Prasannaa</h1>
+        <h2>Electricals and Pipes</h2>
+      </div>
         <div className="footer-sec-1">
         <div className="footer-s1">
         <h1 style={{color:"#5EABD6",fontSize:"20px"}}>Locate<span style={{borderBottom:"5px solid white"}}> at</span></h1>

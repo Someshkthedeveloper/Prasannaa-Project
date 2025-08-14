@@ -1,7 +1,7 @@
 .Footer{
     background-color:#1B3C53;
     color: white;
-    padding: 100px 0 0 0;
+    /* padding: 100px 0 0 0; */
 }
 .Footer h1{
     font-size: 16px;
@@ -12,7 +12,26 @@
     gap: 10px;
 }
 .footer-sec-2{
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
     text-align: center;
     align-content: center;
+}
+.footer-sec-2 a{
+    color: #5EABD6;
+}
+.Brand{
+    background-color: #1B3C53;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.Brand h1{
+    font-size: 60px;
+}
+.Brand h2{
+    line-height: .5;
+    font-size: 20px;
+}
+.Footer a{
+    text-decoration: none;
+    color: white;
 }
