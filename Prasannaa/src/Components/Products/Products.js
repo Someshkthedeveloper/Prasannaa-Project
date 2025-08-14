@@ -35,7 +35,7 @@ export const pvc=[
      {
         img:agriballvalvepvc,
         Title:'agri ballvalve pvc',
-        price:100
+        price:100,
      },
      {
         img:agriunionpvc,

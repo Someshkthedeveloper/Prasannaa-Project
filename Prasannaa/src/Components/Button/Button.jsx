@@ -9,10 +9,10 @@ const Button = () => {
     <div>
     <div className='button-p'>
     <div className="whatsapps">
-        <a href=" https://wa.me/8072170800" target="blank"><img src={whatsap} alt=""/></a>
+        <a href=" https://wa.me/+918072170800" target="blank"><img src={whatsap} alt=""/></a>
       </div>
       <div className="mobiles">
-        <a href="tel:8072170800" target='blank'><img src={phon} alt="" /></a>
+        <a href="tel:+918072170800" target='blank'><img src={phon} alt="" /></a>
         </div>
     </div>
       <Outlet/>   

@@ -7,6 +7,8 @@ import { drainage } from "./underground";
 import { upvc } from "./upvc";
 import { moter } from "./moter";
 import { panal } from "./panal";
+import { pipes } from "./pipe";
+import { CASING } from "./casing";
 
 const Products = () => {
   return (
@@ -27,7 +29,7 @@ const Products = () => {
         </h2>
       <div  className="map">
         {panal.map((pvc) => (
-          <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price} />
+          <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price}qt={pvc.qt}  />
         ))}
       </div>
     </div>
@@ -37,7 +39,7 @@ const Products = () => {
         </h1>
       <div  className="map">
         {pvc.map((pvc) => (
-          <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price} />
+          <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price}  />
         ))}
       </div>
     </div>
@@ -78,6 +80,26 @@ const Products = () => {
       <div className="map">
         {upvc.map((pvc) => (
           <Prodectlist img={pvc.img} Title={pvc.Title} price={pvc.price} />
+        ))}
+      </div>
+    </div>
+     <div className="main_box">
+       <h1 className="pvc-h1">
+          <span>pipes all variety </span> 
+        </h1>
+      <div className="map">
+        {pipes.map((pvc) => (
+          <Prodectlist img={pvc.img} Title={pvc.Title}  />
+        ))}
+      </div>
+    </div>
+     <div className="main_box">
+       <h1 className="pvc-h1">
+          <span>CASING PIPE </span> 
+        </h1>
+      <div className="map">
+        {CASING.map((pvc) => (
+          <Prodectlist img={pvc.img} Title={pvc.Title}  />
         ))}
       </div>
     </div>

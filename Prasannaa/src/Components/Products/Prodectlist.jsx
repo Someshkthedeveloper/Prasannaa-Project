@@ -10,10 +10,10 @@ const Prodectlist = (props) => {
             <div className="pvc-img">
               <img src={props.img} alt={props.Title}  />
             </div>
-            <div className="pvc_tittle">
-              {props.Title}
-            </div>
-            <div className="pvc-title">price {props.price}</div>
+            {/* <div className="pvc_tittle">
+              
+            </div> */}
+            <div className="pvc-title">price {props.Title}</div>
           </div>
       </div>
   

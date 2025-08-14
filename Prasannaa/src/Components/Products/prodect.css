@@ -3,15 +3,17 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    /* gap: 10px; */
 }
 
 .pvc-card {
-    background-color: whitesmoke;
+    background-color: F8F8F8;
     /* width: 90%; */
     width: 300px;
     padding-bottom: 0;
-    height: 49vh;
-    box-shadow: 1px 1px 5px 1px gray;
+    height: 45vh;
+    /* box-shadow: 1px 1px 5px 1px gray; */
+    box-shadow: #FEEBF6 0px 7px 29px 0px;
     text-align: center;
     border-radius: 5px;
     display: flex;
@@ -35,23 +37,27 @@
 }
 
 .pvc-img img:hover {
-    transform: scale(1.1);
+    transform: scale(1.6);
 }
 
 .pvc-title {
-    background-color: white;
-    height: 15%;
+    background-color: #555879;
+    padding: 0px 1px;
+    height: 19.5%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease;
+    border-radius: 5px;
     font-size: 18px;
+    color: #F7F7F7;
+    box-shadow: #FAF9EE 0px 5px 15px;
 }
 
 .pvc-title:hover {
-    background-color: rgb(99, 99, 249);
-    color: white;
+    background-color: #F8F8F8;
+    color: black;
 }
 .pvccard{
     display: flex ;
@@ -62,21 +68,42 @@
     justify-content: center;
     justify-content: space-evenly;
     justify-content: space-around;
+    gap: 10px;
 }
 .pvc-h1{
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
+    /* justify-content: center; */
+    margin-left: 40px;
+    padding-top: 30px;
+
+
 }
 .main_box{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* height: 500px; */
+/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
-
+.price_box{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
 @media all and (max-width: 600px) {
     .pvc-card {
-        width: 300px;
+        width: 170px;
+        height: 35vh;
         margin-bottom: 10px;
         /* background-color: green; */
     }
+    .pvc-title{
+        height: 25%;
+
+    }
+    .pvc-title:hover {
+    background-color: #F8F8F8;
+    color: black;
+} 
+.map{
+    gap: 0px;
+}
 }
