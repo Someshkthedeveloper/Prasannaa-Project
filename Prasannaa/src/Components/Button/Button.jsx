@@ -14,8 +14,7 @@ const Button = () => {
       <div className="mobiles">
         <a href="tel:+918072170800" target='blank'><img src={phon} alt="" /></a>
         </div>
-    </div>
-      <Outlet/>   
+    </div>  
     </div>
   )
 }
