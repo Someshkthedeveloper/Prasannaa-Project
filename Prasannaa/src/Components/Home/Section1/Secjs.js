@@ -5,45 +5,46 @@ import img3 from './asst/4.jpeg'
 import img4 from './asst/5.jpeg'
 import img5 from './asst/6.jpeg'
 import img7 from './asst/7.png'
+import img8 from './asst/Nyra-Panel-Box-239-186.png'
 export let item=[
     {
         image:img,
         title:"Submersible Pumps",
-        link:3
+        link:1
     },
     {
         image:img1,
         title:"UPVC Fittings",
-        link:3
+        link:2
     },
     {
         image:img2,
-        title:'COVC Fittings',
+        title:'CPVC Fittings',
         link:3
     },
     {
         image:img3,
         title:'SWR Fittings ',
-        link:3
+        link:4
     },
     {
         image:img4,
         title:"Underground",
-        link:3
+        link:5
     },{
         image:img5,
         title:"Casing Pipe",
-        link:3
+        link:6
     },
     {
-        image:img1,
-        title:2,
-        link:3
+        image:img8,
+        title:"STARTERS & PANAL",
+        link:7
     },
     {
         image:img7,
         title:'PVC Fittings',
-        link:3
+        link:8
     }
     
 ]
