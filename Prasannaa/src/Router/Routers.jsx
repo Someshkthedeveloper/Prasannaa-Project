@@ -2,6 +2,7 @@ import React from 'react'
 import {items} from './Routeritem.js'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Buttonpage from '../Pages/Buttonpage.jsx'
+import Nav from '../Components/Nav/Nav.jsx'
 const Routers = () => {
   return (
     <BrowserRouter>

@@ -35,3 +35,8 @@
     text-decoration: none;
     color: white;
 }
+@media (max-width:600px){
+    .Footer h1{
+        font-size: 13px;
+    }
+}

@@ -13,6 +13,11 @@ import { CASING } from "./casing";
 const Products = () => {
   return (
     <>
+    <div className="Bluebar">
+      <h1>
+      Choose By Category
+      </h1>
+    </div>
     <div className="main_box">
        <h2 className="pvc-h1">
           <span>CRI SUBMERSIBLE PUMPS & MOTER</span> 

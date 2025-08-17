@@ -12,7 +12,6 @@
 .sec-card{
     background-color: white;
     width: 23%;
-    /* padding: .1%; */
     padding-bottom: 0;
     height: 49vh;
     box-shadow: 1px 1px 5px 1px gray;
@@ -49,6 +48,13 @@ transition: all .15s;
 @media (max-width:600px){
     .sec-card{
         width: 45%;
-        background-color: green;
+        height: 31vh;
+    }
+    .sec-title{
+        background-color: whitesmoke;
+        height: 20%;
+        transition: all .20s;
+        font-size: 16px;
+        border-radius: 0 0 10px 10px;
     }
 }

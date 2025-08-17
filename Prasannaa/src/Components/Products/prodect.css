@@ -5,6 +5,15 @@
     flex-wrap: wrap;
     /* gap: 10px; */
 }
+.Bluebar{
+    width: 100vw;
+    background-color:#1B3C53;
+    color: white;
+    text-align: center;
+}
+.Bluebar h1{
+    font-size: 25px;
+}
 
 .pvc-card {
     background-color: F8F8F8;

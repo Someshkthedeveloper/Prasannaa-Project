@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Nav.css';
 import Logo from './Logo.png'
-import { useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,6 +11,7 @@ const Navbar = () => {
   };
 
   return (
+    <>
     <nav className="navbar">
       <div className="navbar__logo" style={{display:"flex",alignItems:"center"}}><img src={Logo} alt="" /></div>
 
@@ -26,6 +27,8 @@ const Navbar = () => {
         <span className="bar"></span>
       </div>
     </nav>
+    <Outlet/>
+    </>
   );
 };
 
