@@ -7,9 +7,10 @@
 }
 .Bluebar{
     width: 100vw;
-    background-color:#1B3C53;
+    background-color:#042237;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 .Bluebar h1{
     font-size: 25px;
