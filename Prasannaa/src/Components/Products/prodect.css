@@ -66,8 +66,8 @@
 }
 
 .pvc-title:hover {
-    background-color: #F8F8F8;
-    color: black;
+    background-color: rgb(99, 99, 249);
+    color: rgb(255, 255, 255);
 }
 .pvccard{
     display: flex ;

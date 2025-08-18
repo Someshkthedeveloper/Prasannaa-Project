@@ -13,12 +13,13 @@ const Navbar = () => {
   return (
     <>
     <nav className="navbar">
-      <div className="navbar__logo" style={{display:"flex",alignItems:"center"}}><img src={Logo} alt="" /></div>
+      <div className="navbar__logo" onClick={()=>Nav('/')}
+      style={{display:"flex",alignItems:"center"}}><img src={Logo} alt="" /></div>
 
       <ul className={`navbar__links ${isMobileMenuOpen ? 'active' : ''}`}>
         <li onClick={()=>Nav('/')}>Home</li>
         <li onClick={()=>Nav('/Products')}>Products</li>
-        <li onClick={()=>Nav('/')}>Contact</li>
+        <li  onClick={()=>Nav('/',{ state: { scroll: "cont" } })} >Contact</li>
       </ul>
 
       <div className="navbar__toggle" onClick={toggleMobileMenu}>

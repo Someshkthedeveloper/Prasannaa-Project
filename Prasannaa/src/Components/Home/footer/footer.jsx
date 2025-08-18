@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './footer.css'
+import { useLocation, useNavigate } from 'react-router-dom';
 const Footer = () => {
+  // let Nav = useNavigate();
+
+   const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scroll) {
+      const element = document.getElementById(location.state.scroll);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
-    <div className='Footer'>
+    <div className='Footer' id='cont'>
       <div className="Brand">
         <h1>Prasannaa</h1>
         <h2>Electricals and Pipes</h2>
